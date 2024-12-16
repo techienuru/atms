@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.2.1
+-- version 5.2.0
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 12, 2024 at 02:27 PM
--- Server version: 10.4.32-MariaDB
--- PHP Version: 8.2.12
+-- Generation Time: Nov 10, 2024 at 03:06 PM
+-- Server version: 10.4.27-MariaDB
+-- PHP Version: 8.0.25
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -210,7 +210,9 @@ INSERT INTO `student` (`student_id`, `fullname`, `matricno`, `faculty`, `departm
 (8, 'Sidi Samaila Agya', '01', 'FNAS', 'Computer Science', '$2y$10$YO2G3F/KzON9L5vNXe/GAOOnBiSDvJFp9JDeBbjVeN7rNJ/5BImTq'),
 (9, 'Nuru ibrahim', '0000', 'FNAS', 'Computer Science', '$2y$10$K87IYRGaGxJ/tL7b541NzevkXHe/09LmUvff9c.mSXn4I.q37P0em'),
 (10, 'Nuru ibrahim', '123', 'FNAS', 'Computer Science', '$2y$10$NB7OIQBJc79DTU1pHkBCbu8brNir4/bkdhfliHAzdS4z0iaetFChi'),
-(11, 'Samaila', '0219', 'FNAS', 'Computer Science', '$2y$10$LIG2gE/2u/AcHeAPBHjTOemMW4kAJiZWWbvZeCxiwgvCsLxib.UVe');
+(11, 'Samaila', '0219', 'FNAS', 'Computer Science', '$2y$10$LIG2gE/2u/AcHeAPBHjTOemMW4kAJiZWWbvZeCxiwgvCsLxib.UVe'),
+(12, 'Ibrahim Nurudeen Shehu ', '0219047004101', 'FNAS', 'Computer Science', '$2y$10$aBfQD8yszcqKUwZqQlr9Fu/JJ5Q6nLoD9OwQhsAs7EnrO8a4w8Ydi'),
+(13, 'Umar Musa Allu', '0219047001194', 'FNAS', 'Computer Science', '$2y$10$tapqnlYqA62uY63zHQcZDeSk.HAb.C0jUuDh0dFn986ElC43AaDh.');
 
 --
 -- Indexes for dumped tables
@@ -309,7 +311,7 @@ ALTER TABLE `lecturer`
 -- AUTO_INCREMENT for table `student`
 --
 ALTER TABLE `student`
-  MODIFY `student_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=12;
+  MODIFY `student_id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
 
 --
 -- Constraints for dumped tables
